@@ -99,7 +99,7 @@
     .navigation-btn {
         margin: 0px 5px;
         border-radius: 0;
-        @include font-style($font,12px,$regular,$gray,uppercase)
+        @include font-style($font,12px,$regular,$gray,uppercase);
         &:active, &:focus {
             color:$red;
             border-color: $b;
@@ -108,4 +108,5 @@
             
         }
     }
+    
 }
