@@ -1,0 +1,99 @@
+
+.wish-list {
+    margin-top: 128px;
+}
+
+.wish-item-wrapper {
+    margin-bottom: 50px;
+}
+.wish-list-item {
+    border:1px solid $darck-w;
+    overflow: hidden;
+    height: 100%;
+
+    .img-wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 28px;
+        position: relative;
+
+        .wish-img {
+            margin-top: 30px;
+            height: 190px;
+        }
+    }
+    .overlay {
+        top:-160%;
+        position: absolute;
+        background: rgba(0, 0, 0, 0.8);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 113%;
+        transition: all .6s;
+
+        .remove-btn {
+            border: 1px solid $w;
+            padding: 13px 22px;
+            @include font-style($font,12px,$regular,$w,uppercase);
+        }
+    }
+    hr.stroke {
+        width: 10%;
+        background: $red;
+        margin:0 auto;
+        transition: all 1s;
+    }
+    .info-wrapper {
+        padding-top: 28px;
+    }
+    .info {
+        margin-bottom: 0;
+        text-align: center;
+        padding: 0;
+        list-style-type: none;
+        transition: all .6s;
+        .model {
+            margin-bottom: 12px;
+            @include font-style($font,14px,$bold,$b,uppercase);
+        }
+        .price {
+            margin-bottom: 28px;
+            @include font-style($font,16px,$bold,$red,uppercase);
+        }
+        .old-price {
+            text-decoration: line-through;
+            @include font-style($font,12px,$bold,$gray,uppercase);
+        }
+    }
+    .actions {
+        transition: all .6s;
+        .act-btn {
+            border:1px solid $darck-w;
+            border-radius: 0;
+        }
+    }
+    &:hover {
+        .overlay {
+            top:0%;
+        }
+        hr.stroke {
+            background: transparent;
+        }
+        .info-wrapper {
+            background: $gray-sl;
+        }
+       .act-btn {
+           background: $red;
+           color: $w;
+       }
+    }
+}
+.pagination {
+    margin-top: 30px;
+    .navigation-btn {
+        border:1px solid;
+    }
+}

@@ -1,0 +1,118 @@
+.footer {
+    background: $gray-sl;
+    border-top: 3px solid $gray-b;
+}
+.subscribe {
+    margin: 70px 0px 75px 0px;
+    @media (max-width: 575.98px) {
+        flex-direction: column;
+    }
+    @media (min-width: 576px) and (max-width: 767px) {
+        flex-wrap: wrap;
+    }
+    @media (min-width: 768px) and (max-width: 991.98px) {
+        flex-wrap: wrap;
+    }
+
+    &-text {
+        width: 26%;
+        margin-right: 30px;
+        margin-bottom: 0;
+        @include font-style($font,14px,$s-bold,$b,uppercase);
+        @media (max-width: 575.98px) {
+            width: 100%;
+            text-align: center;
+            margin: 0;
+        }
+        @media (min-width: 576px) and (max-width: 767px) {
+            width: 40%;
+            text-align: center;
+            font-size: 12px;
+        }
+        @media (min-width: 768px) and (max-width: 991.98px) {
+            width: 50%;
+        }
+    
+    }
+
+    #subscribe-form {
+        flex-grow: 1;
+        position: relative;
+        @media (max-width: 575.98px) {
+            width: 100%;
+            margin: 30px 0px;
+        }
+        .mail-field {
+            padding: 20px;
+            border: 1px solid $border-i;
+            @include font-style($font,11px,$regular,$gray,uppercase);
+
+            &:focus, &:active {
+                border:1px solid gray;
+                outline: none;
+            }
+
+            &.invalid {
+                background: $red;
+                color:$w;
+            }
+        }
+        .mail-icon {
+            position: absolute;
+            top:50%;
+            right: 30px;
+            transform: translateY(-50%);
+            &:focus{
+                outline: none;
+                box-shadow: none;
+            }
+        }
+    }
+
+    .links-list {
+        padding: 0;
+        list-style-type: none;
+        margin: 0px 0px 0px 30px;
+        @media (max-width: 575.98px) {
+            margin: 0;
+        }
+        @media (max-width: 991px) {
+            margin: 30px auto 0;
+        }
+        .link-icon {
+            border-radius: 0;
+        }
+    }
+}
+.copiright-wrapper {
+    background: $gray-l;
+}
+.copiright  {
+    padding: 31px 0px 33px 0px;
+    @include font-style ($font,11px,$regular,$gray,uppercase);
+
+    @media (max-width: 575px) {
+        flex-direction: column;
+        text-align: center;
+    }
+    &-text {
+        @media (min-width: 576px) and (max-width: 767px) {
+            margin-right: 20px;
+            font-size: 10px;
+        }
+    }
+ 
+    
+    .marked {
+        color:$b;
+        font-weight: $s-bold;
+    }
+    .pay-card-list {
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        @media (max-width: 575px) {
+            margin-top: 30px;
+        }
+    }
+}

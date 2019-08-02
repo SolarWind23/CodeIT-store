@@ -1,0 +1,5 @@
+//= './vendors/libs.min.js'
+//= './components/pagination.js'
+//= './components/sorting.js'
+//= './components/delFromList.js'
+//= './components/validateForm.js'

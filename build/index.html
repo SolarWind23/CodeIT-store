@@ -1,0 +1,1016 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="icon" href="./img/favicon.ico" type="image/png">
+        <title>CodeIT Store</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="./css/main.css">
+    </head>
+    
+    <body>
+        <header class="header">
+            <section class="navigation container">
+                <nav class="navbar navbar-expand-lg navbar-light p-0">
+                    <a class="logo d-flex flex-column" href="#">
+                        <span class="title">
+                            code<span class="marked">it</span>
+                        </span> 
+                        <span class="sub-title">store</span>
+                    </a>
+                    
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    
+                    <div class="nav-wrapper collapse navbar-collapse justify-content-end" id="navigation">
+            
+                        <ul class="nav-list navbar-nav">
+                            <li class="item">
+                                <a href="#" class="link">home</a>
+                            </li>
+            
+                            <li class="item dropdown">
+                                    <a class="link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        all brands<i class="fas fa-chevron-down"></i>
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                            </li>
+            
+                            <li class="item">
+                                <a href="#" class="link">latest</a>
+                            </li>
+            
+                            <li class="item">
+                                <a href="#" class="link">featured</a>
+                            </li>
+            
+                            <li class="item">
+                                <a href="#" class="link">about</a>
+                            </li>
+            
+                            <li class="item">
+                                <a href="#" class="link">blog</a>
+                            </li>
+            
+                            <li class="item">
+                                <a href="#" class="link">contact</a>
+                            </li>
+            
+                            <li class="item">
+                                <a href="#" class="link"><i class="fas fa-search"></i></a>
+                            </li>
+                        </ul>
+                        <div class="chip-basket d-flex">
+                            <i class="lock-pick fas fa-lock"></i> 
+                            <p class="basket-content">
+                                $<span class="price"> 460.00</span>
+                            </p>
+                            <div class="circle d-flex justify-content-center align-items-center">2</div>
+                        </div>
+                    </div>
+                </nav>
+            </section>
+            
+            <section class="saturation-wrapper">
+                <div class="saturation container d-flex justify-content-between">
+                    <h2 class="page-title">My wishlist</h2>
+                    <nav aria-label="breadcrumb" class='crumb'>
+            
+                        <ol class="crumbs-list breadcrumb">
+                            <li class="crumbs-item breadcrumb-item">
+                                <a class="crumbs-link" href="#">Home</a>
+                            </li>
+                            <li class="crumbs-item current breadcrumb-item active" aria-current="page">My wishlist</li>
+                        </ol>
+                    </nav>
+                </div>
+            </section>
+        </header>
+
+       
+        <main class="main"> 
+
+            <section class="sorting container d-flex justify-content-end">
+                <input type="text" id="sort"  placeholder="Search product by model ...">
+                <button class="clear-btn btn btn-outline-secondary"  disapbled>Clear list</button>
+            </section>
+
+            <section class="wish-list container">
+                <div id="content" class="page row">
+                        <div class="wish-item-wrapper col-lg-3 col-md-6 col-sm-12">
+                            <div class="wish-list-item ">
+                                <div class="img-wrapper">
+                                    <img src="./img/wish-list/huawei-mate-s.png" alt="" class="wish-img">
+                    
+                                    <div class="overlay"><button class="btn remove-btn trash">remove item</button></div>
+                                </div>
+                                <hr class="stroke">
+                                <div class="info-wrapper">
+                                    <ul class="info">
+                                        <li class="model">huawei mate s</li>
+                                        <li class="price">$280.00</li>
+                                    </ul>
+                                    <div class="actions d-flex justify-content-center">
+                                        <button class="btn act-btn"><i class="trash fas fa-trash-alt"></i></button>
+                                        <button class="btn act-btn"><i class="fas fa-shopping-cart"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="wish-item-wrapper col-lg-3 col-md-6 col-sm-12">
+                            <div class="wish-list-item ">
+                                <div class="img-wrapper">
+                                    <img src="./img/wish-list/sony-experia.png" alt="" class="wish-img">
+                    
+                                    <div class="overlay"><button class="btn remove-btn trash">remove item</button></div>
+                                </div>
+                                <hr class="stroke">
+                                <div class="info-wrapper">
+                                    <ul class="info">
+                                        <li class="model">sony experia Z5</li>
+                                        <li class="price">$550.00</li>
+                                    </ul>
+                                    <div class="actions d-flex justify-content-center">
+                                        <button class="btn act-btn"><i class="trash fas fa-trash-alt"></i></button>
+                                        <button class="btn act-btn"><i class="fas fa-shopping-cart"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="wish-item-wrapper col-lg-3 col-md-6 col-sm-12">
+                            <div class="wish-list-item ">
+                                <div class="img-wrapper">
+                                    <img src="./img/wish-list/xiaomi-mi-41.png" alt="" class="wish-img">
+                    
+                                    <div class="overlay"><button class="btn remove-btn trash">remove item</button></div>
+                                </div>
+                                <hr class="stroke">
+                                <div class="info-wrapper">
+                                    <ul class="info">
+                                        <li class="model">xiaomi mi 41</li>
+                                        <li class="price">$350.00</li>
+                                    </ul>
+                                    <div class="actions d-flex justify-content-center">
+                                        <button class="btn act-btn"><i class="trash fas fa-trash-alt"></i></button>
+                                        <button class="btn act-btn"><i class="fas fa-shopping-cart"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="wish-item-wrapper col-lg-3 col-md-6 col-sm-12">
+                            <div class="wish-list-item ">
+                                <div class="img-wrapper">
+                                    <img src="./img/wish-list/huawei-g8.png" alt="" class="wish-img">
+                    
+                                    <div class="overlay"><button class="btn remove-btn trash">remove item</button></div>
+                                </div>
+                                <hr class="stroke">
+                                <div class="info-wrapper">
+                                    <ul class="info">
+                                        <li class="model">huawei g8 4g</li>
+                                        <li class="price">$350.00</li>
+                                    </ul>
+                                    <div class="actions d-flex justify-content-center">
+                                        <button class="btn act-btn"><i class="trash fas fa-trash-alt"></i></button>
+                                        <button class="btn act-btn"><i class="fas fa-shopping-cart"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="wish-item-wrapper col-lg-3 col-md-6 col-sm-12">
+                            <div class="wish-list-item ">
+                                <div class="img-wrapper">
+                                    <img src="./img/wish-list/iphone-rose-gold.png" alt="" class="wish-img">
+                    
+                                    <div class="overlay"><button class="btn remove-btn trash">remove item</button></div>
+                                </div>
+                                <hr class="stroke">
+                                <div class="info-wrapper">
+                                    <ul class="info">
+                                        <li class="model">iphone rose gold</li>
+                                        <li class="price">
+                                            $280.00 
+                                            <span class="old-price">$649.00 </span>
+                                        </li>
+                                    </ul>
+                                    <div class="actions d-flex justify-content-center">
+                                        <button class="btn act-btn "><i class="trash fas fa-trash-alt"></i></button>
+                                        <button class="btn act-btn"><i class="fas fa-shopping-cart"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="wish-item-wrapper col-lg-3 col-md-6 col-sm-12">
+                            <div class="wish-list-item ">
+                                <div class="img-wrapper">
+                                    <img src="./img/wish-list/huawei-g8.png" alt="" class="wish-img">
+                    
+                                    <div class="overlay"><button class="btn remove-btn trash">remove item</button></div>
+                                </div>
+                                <hr class="stroke">
+                                <div class="info-wrapper">
+                                    <ul class="info">
+                                        <li class="model">huawei g8 4g</li>
+                                        <li class="price">$350.00</li>
+                                    </ul>
+                                    <div class="actions d-flex justify-content-center">
+                                        <button class="btn act-btn "><i class="trash fas fa-trash-alt"></i></button>
+                                        <button class="btn act-btn"><i class="fas fa-shopping-cart"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="wish-item-wrapper col-lg-3 col-md-6 col-sm-12">
+                            <div class="wish-list-item ">
+                                <div class="img-wrapper">
+                                    <img src="./img/wish-list/galaxy-core-prime.png" alt="" class="wish-img">
+                    
+                                    <div class="overlay"><button class="btn remove-btn trash">remove item</button></div>
+                                </div>
+                                <hr class="stroke">
+                                <div class="info-wrapper"> 
+                                    <ul class="info">
+                                        <li class="model">galaxy core prime</li>
+                                        <li class="price">$399.00</li>
+                                    </ul>
+                                    <div class="actions d-flex justify-content-center">
+                                        <button class="btn act-btn "><i class="trash fas fa-trash-alt"></i></button>
+                                        <button class="btn act-btn"><i class="fas fa-shopping-cart"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="wish-item-wrapper col-lg-3 col-md-6 col-sm-12">
+                            <div class="wish-list-item ">
+                                <div class="img-wrapper">
+                                    <img src="./img/wish-list/iphone-6s.png" alt="" class="wish-img">
+                                    <div class="overlay"><button class="btn remove-btn trash">remove item</button></div>
+                                </div>
+                                <hr class="stroke">
+                                <div class="info-wrapper">
+                                    <ul class="info">
+                                        <li class="model">apple iphone-6s</li>
+                                        <li class="price">$550.00</li>
+                                    </ul>
+                                    <div class="actions d-flex justify-content-center">
+                                        <button class="btn act-btn"><i class="trash fas fa-trash-alt"></i></button>
+                                        <button class="btn act-btn"><i class="fas fa-shopping-cart"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <div class="wish-item-wrapper col-lg-3 col-md-6 col-sm-12">
+                        <div class="wish-list-item ">
+                            <div class="img-wrapper">
+                                <img src="./img/wish-list/galaxy-core-prime.png" alt="" class="wish-img">
+                    
+                                <div class="overlay"><button class="btn remove-btn trash">remove item</button></div>
+                            </div>
+                            <hr class="stroke">
+                            <div class="info-wrapper"> 
+                                <ul class="info">
+                                    <li class="model">galaxy core prime</li>
+                                    <li class="price">$399.00</li>
+                                </ul>
+                                <div class="actions d-flex justify-content-center">
+                                    <button class="btn act-btn "><i class="trash fas fa-trash-alt"></i></button>
+                                    <button class="btn act-btn"><i class="fas fa-shopping-cart"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="wish-item-wrapper col-lg-3 col-md-6 col-sm-12">
+                        <div class="wish-list-item ">
+                            <div class="img-wrapper">
+                                <img src="./img/wish-list/huawei-mate-s.png" alt="" class="wish-img">
+                    
+                                <div class="overlay"><button class="btn remove-btn trash">remove item</button></div>
+                            </div>
+                            <hr class="stroke">
+                            <div class="info-wrapper">
+                                <ul class="info">
+                                    <li class="model">huawei mate s</li>
+                                    <li class="price">$280.00</li>
+                                </ul>
+                                <div class="actions d-flex justify-content-center">
+                                    <button class="btn act-btn"><i class="trash fas fa-trash-alt"></i></button>
+                                    <button class="btn act-btn"><i class="fas fa-shopping-cart"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="wish-item-wrapper col-lg-3 col-md-6 col-sm-12">
+                        <div class="wish-list-item ">
+                            <div class="img-wrapper">
+                                <img src="./img/wish-list/iphone-rose-gold.png" alt="" class="wish-img">
+                    
+                                <div class="overlay"><button class="btn remove-btn trash">remove item</button></div>
+                            </div>
+                            <hr class="stroke">
+                            <div class="info-wrapper">
+                                <ul class="info">
+                                    <li class="model">iphone rose gold</li>
+                                    <li class="price">
+                                        $280.00 
+                                        <span class="old-price">$649.00 </span>
+                                    </li>
+                                </ul>
+                                <div class="actions d-flex justify-content-center">
+                                    <button class="btn act-btn "><i class="trash fas fa-trash-alt"></i></button>
+                                    <button class="btn act-btn"><i class="fas fa-shopping-cart"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="wish-item-wrapper col-lg-3 col-md-6 col-sm-12">
+                        <div class="wish-list-item ">
+                            <div class="img-wrapper">
+                                <img src="./img/wish-list/sony-experia.png" alt="" class="wish-img">
+                    
+                                <div class="overlay"><button class="btn remove-btn trash">remove item</button></div>
+                            </div>
+                            <hr class="stroke">
+                            <div class="info-wrapper">
+                                <ul class="info">
+                                    <li class="model">sony experia Z5</li>
+                                    <li class="price">$550.00</li>
+                                </ul>
+                                <div class="actions d-flex justify-content-center">
+                                    <button class="btn act-btn"><i class="trash fas fa-trash-alt"></i></button>
+                                    <button class="btn act-btn"><i class="fas fa-shopping-cart"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="wish-item-wrapper col-lg-3 col-md-6 col-sm-12">
+                        <div class="wish-list-item ">
+                            <div class="img-wrapper">
+                                <img src="./img/wish-list/xiaomi-mi-41.png" alt="" class="wish-img">
+                    
+                                <div class="overlay"><button class="btn remove-btn trash">remove item</button></div>
+                            </div>
+                            <hr class="stroke">
+                            <div class="info-wrapper">
+                                <ul class="info">
+                                    <li class="model">xiaomi mi 41</li>
+                                    <li class="price">$350.00</li>
+                                </ul>
+                                <div class="actions d-flex justify-content-center">
+                                    <button class="btn act-btn"><i class="trash fas fa-trash-alt"></i></button>
+                                    <button class="btn act-btn"><i class="fas fa-shopping-cart"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="wish-item-wrapper col-lg-3 col-md-6 col-sm-12">
+                        <div class="wish-list-item ">
+                            <div class="img-wrapper">
+                                <img src="./img/wish-list/huawei-g8.png" alt="" class="wish-img">
+                    
+                                <div class="overlay"><button class="btn remove-btn trash">remove item</button></div>
+                            </div>
+                            <hr class="stroke">
+                            <div class="info-wrapper">
+                                <ul class="info">
+                                    <li class="model">huawei g8 4g</li>
+                                    <li class="price">$350.00</li>
+                                </ul>
+                                <div class="actions d-flex justify-content-center">
+                                    <button class="btn act-btn"><i class="trash fas fa-trash-alt"></i></button>
+                                    <button class="btn act-btn"><i class="fas fa-shopping-cart"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="wish-item-wrapper col-lg-3 col-md-6 col-sm-12">
+                        <div class="wish-list-item ">
+                            <div class="img-wrapper">
+                                <img src="./img/wish-list/iphone-6s.png" alt="" class="wish-img">
+                                <div class="overlay"><button class="btn remove-btn trash">remove item</button></div>
+                            </div>
+                            <hr class="stroke">
+                            <div class="info-wrapper">
+                                <ul class="info">
+                                    <li class="model">apple iphone-6s</li>
+                                    <li class="price">$550.00</li>
+                                </ul>
+                                <div class="actions d-flex justify-content-center">
+                                    <button class="btn act-btn"><i class="trash fas fa-trash-alt"></i></button>
+                                    <button class="btn act-btn"><i class="fas fa-shopping-cart"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    
+                    <div class="wish-item-wrapper col-lg-3 col-md-6 col-sm-12">
+                        <div class="wish-list-item ">
+                            <div class="img-wrapper">
+                                <img src="./img/wish-list/huawei-g8.png" alt="" class="wish-img">
+                    
+                                <div class="overlay"><button class="btn remove-btn trash">remove item</button></div>
+                            </div>
+                            <hr class="stroke">
+                            <div class="info-wrapper">
+                                <ul class="info">
+                                    <li class="model">huawei g8 4g</li>
+                                    <li class="price">$350.00</li>
+                                </ul>
+                                <div class="actions d-flex justify-content-center">
+                                    <button class="btn act-btn "><i class="trash fas fa-trash-alt"></i></button>
+                                    <button class="btn act-btn"><i class="fas fa-shopping-cart"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wish-item-wrapper col-lg-3 col-md-6 col-sm-12">
+                        <div class="wish-list-item ">
+                            <div class="img-wrapper">
+                                <img src="./img/wish-list/xiaomi-mi-41.png" alt="" class="wish-img">
+                    
+                                <div class="overlay"><button class="btn remove-btn trash">remove item</button></div>
+                            </div>
+                            <hr class="stroke">
+                            <div class="info-wrapper">
+                                <ul class="info">
+                                    <li class="model">xiaomi mi 41</li>
+                                    <li class="price">$350.00</li>
+                                </ul>
+                                <div class="actions d-flex justify-content-center">
+                                    <button class="btn act-btn"><i class="trash fas fa-trash-alt"></i></button>
+                                    <button class="btn act-btn"><i class="fas fa-shopping-cart"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="wish-item-wrapper col-lg-3 col-md-6 col-sm-12">
+                        <div class="wish-list-item ">
+                            <div class="img-wrapper">
+                                <img src="./img/wish-list/galaxy-core-prime.png" alt="" class="wish-img">
+                    
+                                <div class="overlay"><button class="btn remove-btn trash">remove item</button></div>
+                            </div>
+                            <hr class="stroke">
+                            <div class="info-wrapper"> 
+                                <ul class="info">
+                                    <li class="model">galaxy core prime</li>
+                                    <li class="price">$399.00</li>
+                                </ul>
+                                <div class="actions d-flex justify-content-center">
+                                    <button class="btn act-btn "><i class="trash fas fa-trash-alt"></i></button>
+                                    <button class="btn act-btn"><i class="fas fa-shopping-cart"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    
+                    
+                    <div class="wish-item-wrapper col-lg-3 col-md-6 col-sm-12">
+                        <div class="wish-list-item ">
+                            <div class="img-wrapper">
+                                <img src="./img/wish-list/iphone-rose-gold.png" alt="" class="wish-img">
+                    
+                                <div class="overlay"><button class="btn remove-btn trash">remove item</button></div>
+                            </div>
+                            <hr class="stroke">
+                            <div class="info-wrapper">
+                                <ul class="info">
+                                    <li class="model">iphone rose gold</li>
+                                    <li class="price">
+                                        $280.00 
+                                        <span class="old-price">$649.00 </span>
+                                    </li>
+                                </ul>
+                                <div class="actions d-flex justify-content-center">
+                                    <button class="btn act-btn "><i class="trash fas fa-trash-alt"></i></button>
+                                    <button class="btn act-btn"><i class="fas fa-shopping-cart"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="wish-item-wrapper col-lg-3 col-md-6 col-sm-12">
+                        <div class="wish-list-item ">
+                            <div class="img-wrapper">
+                                <img src="./img/wish-list/sony-experia.png" alt="" class="wish-img">
+                    
+                                <div class="overlay"><button class="btn remove-btn trash">remove item</button></div>
+                            </div>
+                            <hr class="stroke">
+                            <div class="info-wrapper">
+                                <ul class="info">
+                                    <li class="model">sony experia Z5</li>
+                                    <li class="price">$550.00</li>
+                                </ul>
+                                <div class="actions d-flex justify-content-center">
+                                    <button class="btn act-btn"><i class="trash fas fa-trash-alt"></i></button>
+                                    <button class="btn act-btn"><i class="fas fa-shopping-cart"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    
+                    <div class="wish-item-wrapper col-lg-3 col-md-6 col-sm-12">
+                        <div class="wish-list-item ">
+                            <div class="img-wrapper">
+                                <img src="./img/wish-list/huawei-g8.png" alt="" class="wish-img">
+                    
+                                <div class="overlay"><button class="btn remove-btn trash">remove item</button></div>
+                            </div>
+                            <hr class="stroke">
+                            <div class="info-wrapper">
+                                <ul class="info">
+                                    <li class="model">huawei g8 4g</li>
+                                    <li class="price">$350.00</li>
+                                </ul>
+                                <div class="actions d-flex justify-content-center">
+                                    <button class="btn act-btn"><i class="trash fas fa-trash-alt"></i></button>
+                                    <button class="btn act-btn"><i class="fas fa-shopping-cart"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="wish-item-wrapper col-lg-3 col-md-6 col-sm-12">
+                        <div class="wish-list-item ">
+                            <div class="img-wrapper">
+                                <img src="./img/wish-list/huawei-g8.png" alt="" class="wish-img">
+                    
+                                <div class="overlay"><button class="btn remove-btn trash">remove item</button></div>
+                            </div>
+                            <hr class="stroke">
+                            <div class="info-wrapper">
+                                <ul class="info">
+                                    <li class="model">huawei g8 4g</li>
+                                    <li class="price">$350.00</li>
+                                </ul>
+                                <div class="actions d-flex justify-content-center">
+                                    <button class="btn act-btn "><i class="trash fas fa-trash-alt"></i></button>
+                                    <button class="btn act-btn"><i class="fas fa-shopping-cart"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="wish-item-wrapper col-lg-3 col-md-6 col-sm-12">
+                        <div class="wish-list-item ">
+                            <div class="img-wrapper">
+                                <img src="./img/wish-list/huawei-mate-s.png" alt="" class="wish-img">
+                    
+                                <div class="overlay"><button class="btn remove-btn trash">remove item</button></div>
+                            </div>
+                            <hr class="stroke">
+                            <div class="info-wrapper">
+                                <ul class="info">
+                                    <li class="model">huawei mate s</li>
+                                    <li class="price">$280.00</li>
+                                </ul>
+                                <div class="actions d-flex justify-content-center">
+                                    <button class="btn act-btn"><i class="trash fas fa-trash-alt"></i></button>
+                                    <button class="btn act-btn"><i class="fas fa-shopping-cart"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="wish-item-wrapper col-lg-3 col-md-6 col-sm-12">
+                        <div class="wish-list-item ">
+                            <div class="img-wrapper">
+                                <img src="./img/wish-list/iphone-6s.png" alt="" class="wish-img">
+                                <div class="overlay"><button class="btn remove-btn trash">remove item</button></div>
+                            </div>
+                            <hr class="stroke">
+                            <div class="info-wrapper">
+                                <ul class="info">
+                                    <li class="model">apple iphone-6s</li>
+                                    <li class="price">$550.00</li>
+                                </ul>
+                                <div class="actions d-flex justify-content-center">
+                                    <button class="btn act-btn"><i class="trash fas fa-trash-alt"></i></button>
+                                    <button class="btn act-btn"><i class="fas fa-shopping-cart"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wish-item-wrapper col-lg-3 col-md-6 col-sm-12">
+                        <div class="wish-list-item ">
+                            <div class="img-wrapper">
+                                <img src="./img/wish-list/sony-experia.png" alt="" class="wish-img">
+                    
+                                <div class="overlay"><button class="btn remove-btn trash">remove item</button></div>
+                            </div>
+                            <hr class="stroke">
+                            <div class="info-wrapper">
+                                <ul class="info">
+                                    <li class="model">sony experia Z5</li>
+                                    <li class="price">$550.00</li>
+                                </ul>
+                                <div class="actions d-flex justify-content-center">
+                                    <button class="btn act-btn"><i class="trash fas fa-trash-alt"></i></button>
+                                    <button class="btn act-btn"><i class="fas fa-shopping-cart"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="wish-item-wrapper col-lg-3 col-md-6 col-sm-12">
+                        <div class="wish-list-item ">
+                            <div class="img-wrapper">
+                                <img src="./img/wish-list/xiaomi-mi-41.png" alt="" class="wish-img">
+                    
+                                <div class="overlay"><button class="btn remove-btn trash">remove item</button></div>
+                            </div>
+                            <hr class="stroke">
+                            <div class="info-wrapper">
+                                <ul class="info">
+                                    <li class="model">xiaomi mi 41</li>
+                                    <li class="price">$350.00</li>
+                                </ul>
+                                <div class="actions d-flex justify-content-center">
+                                    <button class="btn act-btn"><i class="trash fas fa-trash-alt"></i></button>
+                                    <button class="btn act-btn"><i class="fas fa-shopping-cart"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="wish-item-wrapper col-lg-3 col-md-6 col-sm-12">
+                        <div class="wish-list-item ">
+                            <div class="img-wrapper">
+                                <img src="./img/wish-list/galaxy-core-prime.png" alt="" class="wish-img">
+                    
+                                <div class="overlay"><button class="btn remove-btn trash">remove item</button></div>
+                            </div>
+                            <hr class="stroke">
+                            <div class="info-wrapper"> 
+                                <ul class="info">
+                                    <li class="model">galaxy core prime</li>
+                                    <li class="price">$399.00</li>
+                                </ul>
+                                <div class="actions d-flex justify-content-center">
+                                    <button class="btn act-btn "><i class="trash fas fa-trash-alt"></i></button>
+                                    <button class="btn act-btn"><i class="fas fa-shopping-cart"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="wish-item-wrapper col-lg-3 col-md-6 col-sm-12">
+                        <div class="wish-list-item ">
+                            <div class="img-wrapper">
+                                <img src="./img/wish-list/huawei-g8.png" alt="" class="wish-img">
+                    
+                                <div class="overlay"><button class="btn remove-btn trash">remove item</button></div>
+                            </div>
+                            <hr class="stroke">
+                            <div class="info-wrapper">
+                                <ul class="info">
+                                    <li class="model">huawei g8 4g</li>
+                                    <li class="price">$350.00</li>
+                                </ul>
+                                <div class="actions d-flex justify-content-center">
+                                    <button class="btn act-btn"><i class="trash fas fa-trash-alt"></i></button>
+                                    <button class="btn act-btn"><i class="fas fa-shopping-cart"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="wish-item-wrapper col-lg-3 col-md-6 col-sm-12">
+                        <div class="wish-list-item ">
+                            <div class="img-wrapper">
+                                <img src="./img/wish-list/iphone-rose-gold.png" alt="" class="wish-img">
+                    
+                                <div class="overlay"><button class="btn remove-btn trash">remove item</button></div>
+                            </div>
+                            <hr class="stroke">
+                            <div class="info-wrapper">
+                                <ul class="info">
+                                    <li class="model">iphone rose gold</li>
+                                    <li class="price">
+                                        $280.00 
+                                        <span class="old-price">$649.00 </span>
+                                    </li>
+                                </ul>
+                                <div class="actions d-flex justify-content-center">
+                                    <button class="btn act-btn "><i class="trash fas fa-trash-alt"></i></button>
+                                    <button class="btn act-btn"><i class="fas fa-shopping-cart"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    
+                    <div class="wish-item-wrapper col-lg-3 col-md-6 col-sm-12">
+                        <div class="wish-list-item ">
+                            <div class="img-wrapper">
+                                <img src="./img/wish-list/iphone-6s.png" alt="" class="wish-img">
+                                <div class="overlay"><button class="btn remove-btn trash">remove item</button></div>
+                            </div>
+                            <hr class="stroke">
+                            <div class="info-wrapper">
+                                <ul class="info">
+                                    <li class="model">apple iphone-6s</li>
+                                    <li class="price">$550.00</li>
+                                </ul>
+                                <div class="actions d-flex justify-content-center">
+                                    <button class="btn act-btn"><i class="trash fas fa-trash-alt"></i></button>
+                                    <button class="btn act-btn"><i class="fas fa-shopping-cart"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="wish-item-wrapper col-lg-3 col-md-6 col-sm-12">
+                        <div class="wish-list-item ">
+                            <div class="img-wrapper">
+                                <img src="./img/wish-list/huawei-g8.png" alt="" class="wish-img">
+                    
+                                <div class="overlay"><button class="btn remove-btn trash">remove item</button></div>
+                            </div>
+                            <hr class="stroke">
+                            <div class="info-wrapper">
+                                <ul class="info">
+                                    <li class="model">huawei g8 4g</li>
+                                    <li class="price">$350.00</li>
+                                </ul>
+                                <div class="actions d-flex justify-content-center">
+                                    <button class="btn act-btn "><i class="trash fas fa-trash-alt"></i></button>
+                                    <button class="btn act-btn"><i class="fas fa-shopping-cart"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="wish-item-wrapper col-lg-3 col-md-6 col-sm-12">
+                        <div class="wish-list-item ">
+                            <div class="img-wrapper">
+                                <img src="./img/wish-list/huawei-mate-s.png" alt="" class="wish-img">
+                    
+                                <div class="overlay"><button class="btn remove-btn trash">remove item</button></div>
+                            </div>
+                            <hr class="stroke">
+                            <div class="info-wrapper">
+                                <ul class="info">
+                                    <li class="model">huawei mate s</li>
+                                    <li class="price">$280.00</li>
+                                </ul>
+                                <div class="actions d-flex justify-content-center">
+                                    <button class="btn act-btn"><i class="trash fas fa-trash-alt"></i></button>
+                                    <button class="btn act-btn"><i class="fas fa-shopping-cart"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pagination-wrapper d-flex justify-content-center">
+                    <div class="pagination"></div>
+                </div>
+            </section>
+
+            <section class="store-features">
+                <div id="carouselExampleSlidesOnly" class="slide-show carousel slide container" data-ride="carousel">
+                    <div class="content carousel-inner">
+                        <div class="carousel-item active">
+                            <ul class="feature-list">
+                                <li class="features-icon">
+                                    <i class="icon fas fa-thumbs-up"></i>
+                                    <div class="features-description">
+                                        <p class="title">Full warrenty</p>
+                                        <p class="info">
+                                            Read About Our Warrenty
+                                        </p>
+                                        <hr class="stroke">
+                                    </div>
+                                </li>
+                                <li class="features-icon">
+                                    <i class="icon fas fa-truck"></i>
+                                    <div class="features-description">
+                                        <p class="title">express shipping</p>
+                                        <p class="info">
+                                            Local & International Shipping
+                                        </p>
+                                        <hr class="stroke">
+                                    </div>
+                                </li>
+                                <li class="features-icon">
+                                    <i class="icon fas fa-comment-dots"></i>
+                                    <div class="features-description">
+                                        <p class="title">mobile blog</p>
+                                        <p class="info">
+                                            Discuss Your Favourite Phone
+                                        </p>
+                                        <hr class="stroke">
+                                    </div>
+                                </li>
+                                <li class="features-icon">
+                                    <i class="icon fas fa-headphones"></i>
+                                    <div class="features-description">
+                                        <p class="title">24/7 Support</p>
+                                        <p class="info">
+                                            Get Full Support via Chat
+                                        </p>
+                                        <hr class="stroke">
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="carousel-item">
+                            <ul class="feature-list">
+                                <li class="features-icon">
+                                    <i class="icon fas fa-thumbs-up"></i>
+                                    <div class="features-description">
+                                        <p class="title">Full warrenty</p>
+                                        <p class="info">
+                                            Read About Our Warrenty
+                                        </p>
+                                        <hr class="stroke">
+                                    </div>
+                                </li>
+                                <li class="features-icon">
+                                    <i class="icon fas fa-comment-dots"></i>
+                                    <div class="features-description">
+                                        <p class="title">mobile blog</p>
+                                        <p class="info">
+                                            Discuss Your Favourite Phone
+                                        </p>
+                                        <hr class="stroke">
+                                    </div>
+                                </li>
+                                <li class="features-icon">
+                                    <i class="icon fas fa-headphones"></i>
+                                    <div class="features-description">
+                                        <p class="title">24/7 Support</p>
+                                        <p class="info">
+                                            Get Full Support via Chat
+                                        </p>
+                                        <hr class="stroke">
+                                    </div>
+                                </li>
+                                <li class="features-icon">
+                                    <i class="icon fas fa-truck"></i>
+                                    <div class="features-description">
+                                        <p class="title">express shipping</p>
+                                        <p class="info">
+                                            Local & International Shipping
+                                        </p>
+                                        <hr class="stroke">
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="carousel-item">
+                            <ul class="feature-list">
+                                <li class="features-icon">
+                                    <i class="icon fas fa-truck"></i>
+                                    <div class="features-description">
+                                        <p class="title">express shipping</p>
+                                        <p class="info">
+                                            Local & International Shipping
+                                        </p>
+                                        <hr class="stroke">
+                                    </div>
+                                </li>
+                                <li class="features-icon">
+                                    <i class="icon fas fa-headphones"></i>
+                                    <div class="features-description">
+                                        <p class="title">24/7 Support</p>
+                                        <p class="info">
+                                            Get Full Support via Chat
+                                        </p>
+                                        <hr class="stroke">
+                                    </div>
+                                </li>
+                                <li class="features-icon">
+                                    <i class="icon fas fa-comment-dots"></i>
+                                    <div class="features-description">
+                                        <p class="title">mobile blog</p>
+                                        <p class="info">
+                                            Discuss Your Favourite Phone
+                                        </p>
+                                        <hr class="stroke">
+                                    </div>
+                                </li>
+                                <li class="features-icon">
+                                    <i class="icon fas fa-thumbs-up"></i>
+                                    <div class="features-description">
+                                        <p class="title">Full warrenty</p>
+                                        <p class="info">
+                                            Read About Our Warrenty
+                                        </p>
+                                        <hr class="stroke">
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="subscribe d-flex justify-content-between align-items-center">
+                    <p class="subscribe-text">
+                        subscribe to latest smartphones news & great deals we offer
+                    </p>
+                    <form id="subscribe-form" onsubmit="return validateForm();">
+                        <input type="email" class="mail-field w-100" placeholder="Enter Your Email Address ...">
+                        <button type="submit" class="mail-icon btn" formnovalidate>
+                            <i class=" far fa-envelope"></i>
+                        </button>
+                    </form>
+            
+                    <ul class="links-list d-flex">
+                        <li class="links-item">
+                            <a href="#" class="link-icon btn btn-outline-secondary">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="links-item">
+                            <a href="#" class="link-icon btn btn-outline-secondary">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="links-item">
+                            <a href="#" class="link-icon btn btn-outline-secondary">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                        <li class="links-item">
+                            <a href="#" class="link-icon btn btn-outline-secondary">
+                                <i class="fab fa-google-plus-g"></i>
+                            </a>
+                        </li>
+                        <li class="links-item">
+                            <a href="#" class="link-icon btn btn-outline-secondary">
+                                <i class="fab fa-pinterest-p"></i>
+                            </a>
+                        </li>
+                        <li class="links-item">
+                            <a href="#" class="link-icon btn btn-outline-secondary">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </li>
+                        <li class="links-item">
+                            <a href="#" class="link-icon btn btn-outline-secondary">
+                                <i class="fas fa-rss"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copiright-wrapper ">
+                <div class="copiright container d-flex justify-content-between align-items-center">
+                    <div class="copiright-text">
+                        Copyright © 2015 
+                        <span class="marked">codeitStore</span>
+                        All Rights Reserved.
+                    </div>
+                    <ul class="pay-card-list d-flex">
+                        <li class="pay-cards-item"><img src="./img/cards/visa-electorn.png" alt="" class="card-logo"></li>
+                        <li class="pay-cards-item"><img src="./img/cards/paypal.png" alt="" class="card-logo"></li>
+                        <li class="pay-cards-item"><img src="./img/cards/visa.png" alt="" class="card-logo"></li>
+                        <li class="pay-cards-item"><img src="./img/cards/master-card.png" alt="" class="card-logo"></li>
+                        <li class="pay-cards-item"><img src="./img/cards/maestro.png" alt="" class="card-logo"></li>
+                        <li class="pay-cards-item"><img src="./img/cards/discover.png" alt="" class="card-logo"></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+       
+        <script src="./js/main.js"></script>
+    </body>
+</html>

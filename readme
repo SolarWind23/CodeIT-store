@@ -1,0 +1,4 @@
+0) Clone or download a project from the repository
+1)Open folder in terminal and use npm i, to install all dependencies;
+2) Then use comand gulp in comand line;
+3) (If you do not want to install dependencies and start building the project, then the finished, assembled project is located in the build folder)

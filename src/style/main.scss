@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap&subset=cyrillic,cyrillic-ext,latin-ext');
+@import "./utils/vars";
+@import "./utils/mixins";
+@import "./vendors/icons/fontawesome.scss";
+
+*{
+    box-sizing: border-box;
+}
+@import "./components/header.scss";
+@import "./components/saturation.scss";
+@import "./components/sorting-bar.scss";
+@import "./components/wish-list.scss";
+@import "./components/store-features.scss";
+@import "./components/footet.scss";

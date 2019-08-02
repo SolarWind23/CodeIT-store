@@ -1,0 +1,122 @@
+.store-features {
+    margin-top: 100px;
+    border-top: 1px solid $b;
+    padding: 95px 0px;
+
+    @media (max-width: 575.98px) {
+        padding: 25px 0px;
+    }
+}
+
+.slide-show {
+    border: 2px solid $b;
+    padding: 65px 0px;
+
+    @media (max-width: 575.98px) {
+        padding: 25px 0px;
+    }
+}
+
+.content {
+    overflow: hidden;
+    position: absolute;
+    top: -26px;
+    background: white;
+    width: 95%;
+    margin: 0 auto;
+    left: 50%;
+    transform: translate(-50%);
+    padding-top: 55px;
+
+    @media (max-width: 575.98px) {
+      position: relative;
+      top: 0;
+      width: 100%;
+      padding: 0;
+    }
+}
+
+.feature-list {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: space-around;
+    @media (max-width: 575.98px) {
+        
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .features-icon {
+        display: flex;
+        @media (max-width: 575.98px) {
+            width: 45%;
+            flex-direction: column;
+            margin-bottom: 10px;
+        }
+        @media (min-width: 576px) and (max-width: 767px) {
+            flex-direction: column;
+            text-align: center;
+        }
+        .icon {
+            font-size: 32px;
+            @media (max-width: 575.98px) {
+                margin-bottom: 7px;
+            }
+            @media (min-width: 576px) and (max-width: 767px) {
+                margin-bottom: 7px;
+                font-size: 25px;                
+            }
+            @media (min-width: 768px) and (max-width: 991px) {
+                font-size: 25px;                
+            }
+        }
+    }
+   
+    .features-description {
+        margin-left: 20px;
+        @media (max-width: 767px) {
+            margin-left: 0px;
+        }
+        @media (min-width: 768px) and (max-width: 991px) {
+            margin-left: 5px;         
+        }
+        @media (min-width: 992px) and (max-width: 1200px) {
+            margin-left: 10px;                
+        }
+        .title  {
+            margin-bottom: 15px;
+            @include font-style($font,16px,$bold,$b,uppercase);
+            @media (max-width: 575.98px) {
+                margin-bottom: 5px;
+                font-size: 12px;
+            }
+            @media (min-width: 576px) and (max-width: 991px) {
+                margin-bottom: 5px;
+                font-size: 11px;                
+            }
+        }
+        
+        .info{
+            margin-bottom: 14px;
+            @include font-style($font,12px,$regular,$b,capitalize);
+            @media (max-width: 991px) {
+                font-size: 10px;
+                margin-bottom: 0;
+            }
+           
+        }
+
+        .stroke {
+            margin: 0;
+            width: 10%;
+            @media (max-width: 767px) {
+                display: none;
+            }
+        }
+        
+    }
+    
+    
+    
+}

@@ -1,0 +1,148 @@
+.header {
+    padding: 57px 0px 60px 0px;
+}
+
+
+
+a.logo {
+    cursor: pointer;
+    text-decoration: none;
+    position: relative;
+
+    .title {
+        @include font-style($font,26px,$bold,$red,capitalize);
+
+        .marked {
+            color:$b;
+            text-transform: uppercase;
+        }
+
+        &:after{
+            content: ' ';
+            width: 11%;
+            height: 2px;
+            background: $red;
+            position: absolute;
+            top: 33px;
+            left: -3px;
+        }
+    }
+
+    .sub-title {
+        @include font-style($font,12px,$regular,$b,uppercase);
+        letter-spacing: 10px;
+    }
+}
+.nav-wrapper {
+
+    .nav-list {
+        padding: 0;
+        margin: 0;
+    }
+
+    .item {
+        margin: 0px 10px;
+        @include font-style($font,13px,$bold);
+
+        .link {
+            color: $b;
+            position: relative;
+            text-decoration: none;
+            text-transform: uppercase;
+            
+            &::after {
+                content: ' ';
+                width: 25%;
+                height: 2px;
+                background: transparent;
+                position: absolute;
+                top: 16px;
+                left: 1px;
+            }
+
+            &:hover {
+                color: $red;
+                &::after {
+                    background:$red;
+
+                }
+            }
+        }
+    }
+}
+
+.chip-basket {
+    margin-left: 40px;
+    border: 1px solid;
+    align-items: center;
+    padding: 10px 5% 10px 8px;
+    position: relative;
+    @media (max-width: 991px) {
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    .lock-pick {
+        margin: 0px 8px;
+        color: $red;
+    }
+    .basket-content {
+        margin: 0;
+        font-weight: $regular;
+        .price {
+            @include font-style($font,15px,$bold);
+        }
+    }
+    .circle {
+        width: 25px;
+        height: 25px;
+        background: $b;
+        position: absolute;
+        right: -13px;
+        border-radius: 50%;
+        border-width: 5px;
+        box-shadow: 0 0 0px 5px $w;
+        @include font-style($font,11px,$regular,$w);
+    }
+}
+
+.saturation-wrapper {
+    margin-top: 60px;
+    padding: 65px 0px;
+    background: url('../../img/bg.png');
+    background-size: cover;
+    
+    .saturation {
+        @media (max-width: 575.98px) {
+            flex-direction: column;
+        }
+    }
+
+    .page-title {
+        margin: 0;
+        @include font-style ($font,26px,$bold,$darc-b,uppercase);
+        @media (max-width: 575.98px) {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+    }
+    .crumbs-list {
+        margin: 0;
+        padding: 0;
+        background: transparent;
+        cursor: pointer;
+        @include font-style ($font,12px,$s-bold,$b,uppercase);
+
+        .crumbs-link {
+            color:$b;
+            text-decoration: none;
+        }
+        .crumbs-item.current {
+            color: $gray;
+
+            &:before {
+                color: $b;
+                content:'>';
+            }
+        }
+    }
+}
